@@ -1,0 +1,40 @@
+* {
+	height: 100%;
+}
+#div1 {
+	background: url(http://photo.sf.co.ua/g/364/4.jpg) no-repeat;
+	background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#div2 {
+	background: url(https://d.ibtimes.co.uk/en/full/1431365/2015-sony-world-photography-awards.jpg) no-repeat;
+}
+
+#div3 {
+	background: url(http://www.demilked.com/magazine/wp-content/uploads/2014/03/sony-world-photography-awards-2014-winners-10.jpg) no-repeat;
+}
+
+#div4 {
+	background: url(http://cdn.theatlantic.com/assets/media/img/photo/2015/06/2015-audubon-photography-awards/a04_PurpleGallinules/main_1500.jpg) no-repeat;
+}
+
+#div2, #div3, #div4 {
+	background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+}
+
+.changeImage {
+	height: 100%;
+}
+
+.circle-button {
+	/*border-radius: 20%;*/
+	width: 120px;
+	/*height: 100%;*/
+	opacity: 0.4;
+	background-color: white;
+}
