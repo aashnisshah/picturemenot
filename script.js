@@ -12,10 +12,4 @@ var changeimage = function(divNameHide, divNameShow) {
 
 	var background_cover1 = document.getElementById(divNameShow);
 	background_cover1.style.display = 'block';
-
-	// console.log('image changed: ' + background_cover.style.backgroundImage);
-	// background_cover.style.backgroundImage = "url('" + background_images[2] + "') no-repeat"
-	// document.getElementById('content').style.backgroundImage = "url('https://d.ibtimes.co.uk/en/full/1431365/2015-sony-world-photography-awards.jpg') no-repeat";
-	// console.log(background_cover.style.backgroundImage);
-	console.log('image changed: ' + background_cover.style.backgroundImage);
 }
