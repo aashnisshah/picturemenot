@@ -1,9 +1,14 @@
 * {
-	height: 100%;
+	/*height: 100%;*/
 	text-align: center;
 	margin: 0px auto;
 	padding: 0px auto;
 	background-color: #1A1B1C;
+}
+
+body {
+	background-color: #1A1B1C;
+	height: 100%;
 }
 
 *:focus {
@@ -50,6 +55,7 @@
 	position: relative;
 	background-position: 50% 50%;
 	width: 100%;
+	height: 100%;
 }
 
 #div2 {
@@ -73,22 +79,25 @@
 	background-position: 50% 50%;
 	width: 100%;
     display: none;
+    height: 100%;
 }
 
 .next-button {
 	color: #cccccc;
 	font-size: 2em;
+	height: 100%;
 }
 
 .circle-button {
 	width: 120px;
 	background-color: #1A1B1C;
 	border: none;
+	height: 100%;
 }
 
 #gallery {
-	height: 33%;
 	margin-top: 50px;
+	height: 100%;
 }
 
 .gallery-image {
@@ -97,8 +106,25 @@
 
 .gallery-image img {
 	opacity: 0.2;	
+	height: 33%;
 }
 
 .gallery-image img:hover {
 	opacity: 1;	
+}
+
+#image-display {
+	/*background: url() no-repeat;*/
+	/*background-size: cover;*/
+	height: 60%;
+	/*min-height: 60%;*/
+	margin: 0px auto;
+}
+
+.not-full-height {
+	height: 80%;
+}
+
+#image-display {
+	background-size: 100%;
 }
