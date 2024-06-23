@@ -1,2 +1,2 @@
 # picturemenot
-PictureMeNot.com
+Landing Page
